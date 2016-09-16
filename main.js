@@ -6,16 +6,16 @@ var startGame = require("./game.js");
 
 
 //Global Vars
-GLOBAL.wordOptions = words.t;
-GLOBAL.selectedWord = Letters.selectedWord;
-GLOBAL.letterinWord = Letters.letterinWord;
-GLOBAL.numBlanks = Letters.numBlanks;
-GLOBAL.blanksAndSuccesses = Letters.blankandsuccess;
-GLOBAL.wrongLetters = Letters.wrongLetters;
+global.wordOptions = words.t;
+global.selectedWord = Letters.selectedWord;
+global.letterinWord = Letters.letterinWord;
+global.numBlanks = Letters.numBlanks;
+global.blanksAndSuccesses = Letters.blankandsuccess;
+global.wrongLetters = Letters.wrongLetters;
 
-GLOBAL.winCount = 0;
-GLOBAL.lossCount = 0;
-GLOBAL.guessCount = 15;
+global.winCount = 0;
+global.lossCount = 0;
+global.guessCount = 15;
 
 
 
@@ -46,6 +46,6 @@ Letters.roundComplete = function () {
 }
 
 
-process.stdin.setRawMode(true);
-process.stdin.resume();
+// process.stdin.setRawMode(true);
+// process.stdin.resume();
 

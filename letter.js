@@ -31,7 +31,7 @@ function Letters(letter) {
 		wrongLetters.push(letter);
 		guessesLeft--;
 	}
-	console.log(blanksAndSuccesses);
+	console.log(blanksAndSuccesses,'here');
 
 }
 
